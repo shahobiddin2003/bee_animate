@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.action_area {
+  width: 1200px;
+  height: 1500px;
+  margin: 100px 200px;
+  background: url(../../images/lawn-grass-seeds.jpg);
+}
+.animate {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background: url(../../images/dlf.pt-bee-png-40041.png);
+  background-size: 100px 100px;
+  animation-name: moveright;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes moveright {
+  //   1
+  0% {
+    transform: translate(0, 0);
+  }
+  //   2
+  9% {
+    transform: translate(450px, 0);
+  }
+  //   3
+  18% {
+    transform: translate(450px, 350px);
+  }
+  //   4
+  27% {
+    transform: translate(1100px, 350px);
+  }
+  //   5
+  36% {
+    transform: translate(1100px, 550px);
+  }
+  //   6
+  45% {
+    transform: translate(650px, 550px);
+  }
+  //   7
+  54% {
+    transform: translate(650px, 450px);
+  }
+  //   8
+  63% {
+    transform: translate(450px, 450px);
+  }
+  //   9
+  72% {
+    transform: translate(200px, 150px);
+  }
+  //   10
+  81% {
+    transform: translate(0px, 150px);
+  }
+  //   11
+  100% {
+    transform: translate(0px, 0px);
+  }
+}

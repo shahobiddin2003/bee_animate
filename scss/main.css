@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.action_area {
+  width: 1200px;
+  height: 1500px;
+  margin: 100px 200px;
+  background: url(../../images/lawn-grass-seeds.jpg);
+}
+
+.animate {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background: url(../../images/dlf.pt-bee-png-40041.png);
+  background-size: 100px 100px;
+  -webkit-animation-name: moveright;
+          animation-name: moveright;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes moveright {
+  0% {
+    transform: translate(0, 0);
+  }
+  9% {
+    transform: translate(450px, 0);
+  }
+  18% {
+    transform: translate(450px, 350px);
+  }
+  27% {
+    transform: translate(1100px, 350px);
+  }
+  36% {
+    transform: translate(1100px, 550px);
+  }
+  45% {
+    transform: translate(650px, 550px);
+  }
+  54% {
+    transform: translate(650px, 450px);
+  }
+  63% {
+    transform: translate(450px, 450px);
+  }
+  72% {
+    transform: translate(200px, 150px);
+  }
+  81% {
+    transform: translate(0px, 150px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes moveright {
+  0% {
+    transform: translate(0, 0);
+  }
+  9% {
+    transform: translate(450px, 0);
+  }
+  18% {
+    transform: translate(450px, 350px);
+  }
+  27% {
+    transform: translate(1100px, 350px);
+  }
+  36% {
+    transform: translate(1100px, 550px);
+  }
+  45% {
+    transform: translate(650px, 550px);
+  }
+  54% {
+    transform: translate(650px, 450px);
+  }
+  63% {
+    transform: translate(450px, 450px);
+  }
+  72% {
+    transform: translate(200px, 150px);
+  }
+  81% {
+    transform: translate(0px, 150px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}/*# sourceMappingURL=main.css.map */
